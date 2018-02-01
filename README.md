@@ -9,6 +9,7 @@ phone parser for country dialing code parsing from full string
 ## Installation
 ```
 npm install parse-phone
+```
 
 ## Get Started
 ```
