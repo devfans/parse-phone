@@ -242,12 +242,8 @@ const dialingCodes = [
 ]
 
 module.exports = (phoneStr) => {
-  const data = {success: true}
   const matches = dialingCodes.filter(code=>phoneStr.startsWith(code))
   if (matches.length == 0) return {success: false}
-  data.dialCode = matches[0]
-  data.full = phoneStr
-  data.phone = phoneStr.replace(matches[0], '')
-  return data
+  return { success: true, dialCode: matches[0], full: phoneStr, phone: phoneStr.replace(matches[0], '') }
 }
 
