@@ -17,5 +17,5 @@ const recipient = phoneParser(phoneStr)
 ```
 
 
-[npm-image]: https://img.shields.io/npm/v/express-session.svg
+[npm-image]: https://img.shields.io/npm/v/parse-phone.svg
 [npm-url]: https://npmjs.org/package/parse-phone
