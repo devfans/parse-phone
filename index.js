@@ -239,7 +239,7 @@ const dialingCodes = [
   "+20",
   "+7",
   "+1"
-  ]
+]
 
 module.exports = (phoneStr) => {
   const data = {success: true}
