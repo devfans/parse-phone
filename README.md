@@ -1,4 +1,6 @@
 # parse-phone
+[![NPM Version][npm-image]][npm-url]
+
 phone parser for country dialing code parsing from full string
 
 ## Get Started
