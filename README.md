@@ -6,11 +6,15 @@
 
 phone parser for country dialing code parsing from full string
 
+## Installation
+```
+npm install parse-phone
+
 ## Get Started
 ```
 const phoneStr = "+86188888888"
-const phoneParser = require('parse-phone')
-const recipient = phoneParser(phoneStr)
+const parsePhone = require('parse-phone')
+const recipient = parsePhone(phoneStr)
 
 { success: true,
   dialCode: '+86',
