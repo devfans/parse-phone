@@ -4,7 +4,7 @@
 [![Build Status][travis-image]][travis-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
 
-phone parser for country dialing code parsing from full string
+phone parser for international dialing code parsing from full string
 
 ## Installation
 ```
@@ -21,6 +21,13 @@ const recipient = parsePhone(phoneStr)
   dialCode: '+86',
   full: '+86188888888',
   phone: '188888888' }
+
+parsePhone('+18096958000')
+
+{ success: true,
+  dialCode: '+1809',
+  full: '+18096958000',
+  phone: '6958000' }
 
 ```
 

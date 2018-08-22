@@ -1,6 +1,6 @@
 {
   "name": "parse-phone",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "phone string parser",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "supertest": "1.1.0"
   },
   "keywords": [
+    "international",
     "phone",
     "parse",
     "dail",
