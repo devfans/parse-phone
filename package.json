@@ -1,6 +1,6 @@
 {
   "name": "parse-phone",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "phone string parser",
   "main": "index.js",
   "scripts": {
@@ -14,13 +14,13 @@
     "url": "git+https://github.com/devfans/parse-phone.git"
   },
   "devDependencies": {
-    "after": "0.8.2",
-    "eslint": "3.19.0",
-    "eslint-plugin-markdown": "1.0.0-beta.6",
     "express": "4.16.2",
-    "istanbul": "0.4.5",
-    "mocha": "2.5.3",
-    "supertest": "1.1.0"
+    "after": "0.8.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-markdown": "^1.0.0",
+    "istanbul": "1.0.0-alpha.2",
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
   },
   "keywords": [
     "international",
